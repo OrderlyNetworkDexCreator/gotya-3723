@@ -1,14 +1,14 @@
 :root {
-  --oui-font-family: 'Manrope', sans-serif;
-  --oui-font-size-base: 16px;
+  --oui-font-family: 'Roboto', sans-serif;
+  --oui-font-size-base: 17px;
 
   /* colors */
-  --oui-color-primary: 176 132 233;
-  --oui-color-primary-light: 213 190 244;
-  --oui-color-primary-darken: 137 76 209;
+  --oui-color-primary: 31 98 255;
+  --oui-color-primary-light: 20 142 255;
+  --oui-color-primary-darken: 20 99 255;
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 189 107 237;
+  --oui-color-link: 105 180 236;
   --oui-color-link-light: 217 152 250;
 
   --oui-color-secondary: 255 255 255;
@@ -47,9 +47,9 @@
   --oui-color-base-foreground: 255 255 255;
   --oui-color-line: 255 255 255;
 
-  --oui-color-trading-loss: 245 97 139;
+  --oui-color-trading-loss: 255 36 131;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 41 233 169;
+  --oui-color-trading-profit: 5 255 34;
   --oui-color-trading-profit-contrast: 255 255 255;
 
   /* gradients */
@@ -65,8 +65,8 @@
   --oui-gradient-danger-start: 153 24 76;
   --oui-gradient-danger-end: 245 97 139;
 
-  --oui-gradient-brand-start: 231 219 249;
-  --oui-gradient-brand-end: 159 107 225;
+  --oui-gradient-brand-start: 20 142 255;
+  --oui-gradient-brand-end: 31 98 255;
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
@@ -78,23 +78,23 @@
   --oui-gradient-neutral-end: 38 41 46;
 
   /* rounded */
-  --oui-rounded-sm: 2px;
-  --oui-rounded: 4px;
-  --oui-rounded-md: 6px;
+  --oui-rounded-sm: 1px;
+  --oui-rounded: 2px;
+  --oui-rounded-md: 5px;
   --oui-rounded-lg: 8px;
   --oui-rounded-xl: 12px;
   --oui-rounded-2xl: 16px;
   --oui-rounded-full: 9999px;
 
   /* spacing */
-  --oui-spacing-xs: 20rem;
-  --oui-spacing-sm: 22.5rem;
-  --oui-spacing-md: 26.25rem;
+  --oui-spacing-xs: 17.5rem;
+  --oui-spacing-sm: 16.5rem;
+  --oui-spacing-md: 16rem;
   --oui-spacing-lg: 30rem;
   --oui-spacing-xl: 33.75rem;
 }
 
 html, body {
-  font-family: 'Manrope', sans-serif !important;
-  font-size: 16px !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 17px !important;
 }
